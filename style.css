@@ -25,6 +25,7 @@
   color: white;
   font-size: 12px;
   text-align: center;
+  width: 100%;
 }
 
 .logo-bg {
@@ -161,7 +162,11 @@
   .container {
     flex-direction: column;
   }
-  
+
+  .attribution {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
   .hero {
     display: flex;
     align-items: center;
