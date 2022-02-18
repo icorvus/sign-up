@@ -16,6 +16,15 @@
   background-size: cover;
   background-position: center;
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.attribution {
+  color: white;
+  font-size: 12px;
+  text-align: center;
 }
 
 .logo-bg {
@@ -136,6 +145,10 @@
 
 .bottom {
   font-size: 1.1rem;
+}
+
+.attribution a {
+  color: inherit;
 }
 
 .bottom a {
