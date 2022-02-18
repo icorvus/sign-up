@@ -16,7 +16,6 @@
   background-size: cover;
   background-position: center;
   flex: 1;
-  position: relative;
 }
 
 .logo-bg {
@@ -26,9 +25,8 @@
   gap: 30px;
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
-  padding: 1.5rem;
-  position: absolute;
-  top: 20%;
+  padding: 1.5rem 0;
+  margin-top: 200px;
   width: 100%;
   text-align: center;
 }
@@ -48,5 +46,148 @@
   flex-direction: column;
   justify-content: center;
   font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  background-color: #A39BBF;
+  color: #1E2236;
 }
 
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 50px 0 0;
+}
+
+.form-row input[type='text'],
+.form-row input[type='email'],
+.form-row input[type='password'] {
+  width: 300px;
+}
+
+.form-row input[type='text']:focus,
+.form-row input[type='email']:focus,
+.form-row input[type='password']:focus {
+  outline: solid 3px #425b8c;
+  border: none;
+  border-radius: 4px;
+}
+
+.form-row label {
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+}
+
+.form-row input {
+  font-size: 1.1rem;
+  padding: 5px 10px;
+  border: solid 2px #A39BBF;
+  border-radius: 5px;
+}
+
+.form-section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+}
+
+.center {
+  background-color: #CDC1D9;
+  padding: 20px;
+  box-shadow: 0 5px 20px #2D3F63;
+}
+
+.head,
+.center,
+.bottom {
+  padding-left: 40px;
+}
+
+.head {
+  padding: 0 20% 50px 50px;
+}
+
+.significant {
+  font-size: 1.5rem;
+}
+
+.head :last-child {
+  margin-top: 20px;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 10px 40px;
+  margin: 40px 0;
+  font-size: 1.1rem;
+  border-radius: 7px;
+  border: none;
+  background-color: #2D3F63;
+  color: #DBCFE8;
+}
+
+.btn:hover {
+  background-color: #DBCFE8;
+  color: #2D3F63;
+  box-shadow: 0 0 5px #2D3F63;
+}
+
+.bottom {
+  font-size: 1.1rem;
+}
+
+.bottom a {
+  text-decoration: none;
+  color: #253659;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1120px) {
+  .container {
+    flex-direction: column;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-bg {
+    margin: 0;
+  }
+
+  .form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .bottom {
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bottom :last-child {
+    margin-top: 10px;
+  }
+
+  .btn {
+    margin: 0;
+  }
+
+  .form-row input[type='text'],
+  .form-row input[type='email'],
+  .form-row input[type='password'] {
+    width: 100%;
+  }
+  
+  .form-row {
+    margin: 5px 0;
+  }
+
+  .center, .head {
+    padding: 40px 60px;
+  }
+}
