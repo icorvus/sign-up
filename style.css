@@ -130,6 +130,10 @@
   box-shadow: 0 0 5px #2D3F63;
 }
 
+.btn:active {
+  transform: scale(0.98);
+}
+
 .bottom {
   font-size: 1.1rem;
 }
@@ -188,6 +192,10 @@
   }
 
   .center, .head {
-    padding: 40px 60px;
+    padding: 40px 5%;
+  }
+
+  .significant {
+    text-align: center;
   }
 }
