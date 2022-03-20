@@ -12,6 +12,9 @@ https://icorvus.github.io/sign-up/
 - Semantic Forms
 - Responsive
 
+## Screenshots
+[![signup.png](https://i.postimg.cc/zGb0YpHw/signup.png)](https://postimg.cc/LJSzztTh)
+
 ## Project Status
 - Completed
 
