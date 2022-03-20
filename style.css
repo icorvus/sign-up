@@ -123,6 +123,10 @@
   margin-top: 20px;
 }
 
+.head .significant {
+  text-shadow: 1px 1px 3px #cdc1d9;
+}
+
 .btn {
   cursor: pointer;
   padding: 10px 40px;
